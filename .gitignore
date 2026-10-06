@@ -1,0 +1,13 @@
+# Build files
+build/
+
+# Generated distribution files
+Distribution/AppDir/
+Distribution/*.AppImage
+Distribution/*-Data/
+
+# Vircon32 emulator copied for distribution
+Distribution/Linux/
+
+# VS Code local files
+.vscode/*.log
