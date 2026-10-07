@@ -74,14 +74,22 @@ cp "$PROJECT_DIR/Assets/icone.png" \
 
 echo "=== Building AppImage ==="
 
-APPIMAGETOOL="$HOME/Téléchargements/appimagetool-x86_64.AppImage"
 
-chmod +x "$APPIMAGETOOL"
-
-"$APPIMAGETOOL" \
+appimagetool \
     "$PROJECT_DIR/Distribution/AppDir" \
     "$PROJECT_DIR/Distribution/${PROJECT_NAME}-x86_64.AppImage"
 
 echo "=== AppImage created ==="
 echo "Output: Distribution/${PROJECT_NAME}-x86_64.AppImage"
+
+# APPIMAGETOOL="$HOME/Téléchargements/appimagetool-x86_64.AppImage"
+
+# chmod +x "$APPIMAGETOOL"
+
+# "$APPIMAGETOOL" \
+#     "$PROJECT_DIR/Distribution/AppDir" \
+#     "$PROJECT_DIR/Distribution/${PROJECT_NAME}-x86_64.AppImage"
+
+# echo "=== AppImage created ==="
+# echo "Output: Distribution/${PROJECT_NAME}-x86_64.AppImage"
 
