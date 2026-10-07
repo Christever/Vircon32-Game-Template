@@ -48,7 +48,7 @@ fi
 
 echo "=== Converting textures ==="
 
-for file in "$PROJECT_DIR/Assets/"*.png; do
+for file in "$PROJECT_DIR/Assets/Textures/"*.png; do
     [ -e "$file" ] || continue
 
     filename="$(basename "$file" .png)"
@@ -69,7 +69,7 @@ done
 
 echo "=== Converting sounds ==="
 
-for file in "$PROJECT_DIR/Assets/"*.wav; do
+for file in "$PROJECT_DIR/Assets/Sounds/"*.wav; do
     [ -e "$file" ] || continue
 
     filename="$(basename "$file" .wav)"
