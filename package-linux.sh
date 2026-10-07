@@ -12,7 +12,7 @@ mkdir -p "$PROJECT_DIR/Distribution/AppDir/usr/bin"
 
 echo "=== Copying Vircon32 emulator ==="
 
-cp -a "$PROJECT_DIR/Distribution/Linux/." \
+cp -a /usr/local/Vircon32/Emulator/. \
       "$PROJECT_DIR/Distribution/AppDir/usr/bin/"
 
 cp "$PROJECT_DIR/build/${PROJECT_NAME}.v32" \
