@@ -69,7 +69,7 @@ cp "$PROJECT_DIR/Distribution/AppDir/${PROJECT_NAME}.desktop" \
 
 echo "=== Copying icon ==="
 
-cp "$PROJECT_DIR/Assets/icone.png" \
+cp "$PROJECT_DIR/Assets/icone64.png" \
    "$PROJECT_DIR/Distribution/AppDir/${PROJECT_NAME}.png"
 
 echo "=== Building AppImage ==="
