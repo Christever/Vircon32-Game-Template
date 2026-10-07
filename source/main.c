@@ -1,5 +1,5 @@
 #include "video.h"
-
+#include "time.h"
 
 void main()
 {

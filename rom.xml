@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <rom-definition version="1.0">
-    <rom type="cartridge" title="Hello Vircon32" version="1.0" />
-    <binary path="build/HelloVircon.vbin" />
+    <rom type="cartridge" title="PROJECT_NAME" version="1.0" />
+    <binary path="PROJECT_NAME.vbin" />
     <textures>
     </textures>
     <sounds>
