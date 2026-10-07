@@ -82,14 +82,5 @@ appimagetool \
 echo "=== AppImage created ==="
 echo "Output: Distribution/${PROJECT_NAME}-x86_64.AppImage"
 
-# APPIMAGETOOL="$HOME/Téléchargements/appimagetool-x86_64.AppImage"
 
-# chmod +x "$APPIMAGETOOL"
-
-# "$APPIMAGETOOL" \
-#     "$PROJECT_DIR/Distribution/AppDir" \
-#     "$PROJECT_DIR/Distribution/${PROJECT_NAME}-x86_64.AppImage"
-
-# echo "=== AppImage created ==="
-# echo "Output: Distribution/${PROJECT_NAME}-x86_64.AppImage"
 
